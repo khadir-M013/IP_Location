@@ -3,7 +3,7 @@ import requests
 import logo
 logo.logo()
 
-print(f"\033[1;33m_"*60)
+print(f"\033[1;33m_"*80)
 def get_location(ip_address):
     try:
         # Send a request to the ipinfo.io API
